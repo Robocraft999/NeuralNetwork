@@ -6,12 +6,12 @@ import processing.data.JSONObject;
 
 public class Model{
 	  
-	  protected int[] layers;
+	  public int[] layers;
 	  
-	  protected Matrix[] weights;
-	  protected Matrix[] biases;
+	  public Matrix[] weights;
+	  public Matrix[] biases;
 	  
-	  protected float learningRate;
+	  public float learningRate;
 	  
 	  private PApplet parent;
 	  
