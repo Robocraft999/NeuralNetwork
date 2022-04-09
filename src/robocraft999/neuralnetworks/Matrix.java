@@ -223,6 +223,11 @@ public class Matrix implements Cloneable {
 
 		return matrix;
 	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
 
 }
 
